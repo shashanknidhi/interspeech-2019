@@ -1,0 +1,108 @@
+nn_arch1 = {
+    'layers': [
+        ('dropout', 0.2),
+        ('dense', 128, 'relu'),
+        ('dropout', 0.2),
+        ('dense', 64, 'tanh'),
+        ('dropout', 0.20),
+        ('dense', 3, 'softmax'),
+    ],
+    'optimizer': 'adagrad',
+    'batch_size': 75,
+    'epochs': 35
+}
+nn_arch2 = {
+    'layers': [
+        ('dense', 128, 'relu'),
+        ('dropout', 0.2),
+        ('dense', 64, 'tanh'),
+        ('dropout', 0.20),
+        ('dense', 3, 'softmax'),
+    ],
+    'optimizer': 'adagrad',
+    'batch_size': 75,
+    'epochs': 35
+}
+nn_arch3 = {
+    'layers': [
+        ('dropout', 0.2),
+        ('dense', 128, 'relu'),
+        ('dropout', 0.2),
+        ('dense', 64, 'relu'),
+        ('dropout', 0.20),
+        ('dense', 3, 'softmax'),
+    ],
+    'optimizer': 'adagrad',
+    'batch_size': 75,
+    'epochs': 35
+}
+nn_arch4 = {
+    'layers': [
+        ('dense', 128, 'relu'),
+        ('dropout', 0.2),
+        ('dense', 64, 'relu'),
+        ('dropout', 0.20),
+        ('dense', 3, 'softmax'),
+    ],
+    'optimizer': 'adagrad',
+    'batch_size': 75,
+    'epochs': 35
+}
+nn_arch5 = {
+    'layers': [
+        ('dropout', 0.2),
+        ('dense', 256, 'relu'),
+        ('dropout', 0.2),
+        ('dense', 128, 'relu'),
+        ('dropout', 0.2),
+        ('dense', 64, 'tanh'),
+        ('dropout', 0.20),
+        ('dense', 3, 'softmax'),
+    ],
+    'optimizer': 'adagrad',
+    'batch_size': 75,
+    'epochs': 35
+}
+nn_arch6 = {
+    'layers': [
+        ('dense', 256, 'relu'),
+        ('dropout', 0.2),
+        ('dense', 128, 'relu'),
+        ('dropout', 0.2),
+        ('dense', 64, 'tanh'),
+        ('dropout', 0.20),
+        ('dense', 3, 'softmax'),
+    ],
+    'optimizer': 'adagrad',
+    'batch_size': 75,
+    'epochs': 35
+}
+nn_arch7 = {
+    'layers': [
+        ('dropout', 0.2),
+        ('dense', 256, 'relu'),
+        ('dropout', 0.2),
+        ('dense', 128, 'relu'),
+        ('dropout', 0.2),
+        ('dense', 64, 'relu'),
+        ('dropout', 0.20),
+        ('dense', 3, 'softmax'),
+    ],
+    'optimizer': 'adagrad',
+    'batch_size': 75,
+    'epochs': 35
+}
+nn_arch8 = {
+    'layers': [
+        ('dense', 256, 'relu'),
+        ('dropout', 0.2),
+        ('dense', 128, 'relu'),
+        ('dropout', 0.2),
+        ('dense', 64, 'relu'),
+        ('dropout', 0.20),
+        ('dense', 3, 'softmax'),
+    ],
+    'optimizer': 'adagrad',
+    'batch_size': 75,
+    'epochs': 35
+}
