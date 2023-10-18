@@ -104,6 +104,8 @@ experiment_setups = [
     [1, 1, 0, 1, 1, 1],  # all without nela_desc
     [1, 0, 1, 1, 1, 1],  # all without numerical
     [0, 1, 1, 1, 1, 1],  # all without bert_fulltext
+    [0, 1, 1, 0, 0, 1],  # numerical+nela_dsc+speech_embeddings
+    [0, 1, 1, 0, 1, 0],  # numerical+nela_dsc+openSMILE
 ]
 
 input_args = vars(parser.parse_args())
